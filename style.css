@@ -1,0 +1,52 @@
+header > h1 {
+	text-transform:uppercase;
+	text-align:center;
+}
+nav {
+	background:#CCC;
+}
+nav > ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+nav > ul > li > a {
+	display:block;
+	padding:15px 10px;
+	text-decoration:none;
+}
+nav > ul > li{
+	border-left: 1px solid #FFF;
+	min-width: 100px;
+	text-align:center;
+}
+nav > ul > li:last-child{
+	margin-left:auto;
+}
+nav > ul > li > a:hover{
+	background-color:#09C;
+	color:#FFF;
+}
+section.content{
+	background-color:#999;
+}
+div.language{
+	padding:0;
+	display:flex; 
+	margin:0;
+	border-bottom: 1px solid #FFF;
+} 
+div.language img{
+	transition:transform ease-in 2s;
+}
+div.language  img:hover{
+	transform:skew(-20deg);
+}
+footer {
+	background-color:#03F;
+	color:#FFF;
+	padding:2px;
+	margin:2px;
+	text-align:center;
+}
